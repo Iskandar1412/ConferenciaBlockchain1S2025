@@ -1,0 +1,40 @@
+[
+    {
+        "index": 0,
+        "marca_tiempo": "2025-03-31 18:48:23.208754",
+        "cuerpo": "Bloque Genesis",
+        "hash_anterior": "0",
+        "hash": "e15f9a039ca860e19e1f3ad0b0eebe5bec7f936a9f1d0dfdea8391233657ce70"
+    },
+    {
+        "index": 1,
+        "marca_tiempo": "2025-03-31 18:48:23.210729",
+        "cuerpo": {
+            "sender": "Alice",
+            "receiver": "Bob",
+            "amount": 50
+        },
+        "hash_anterior": "e15f9a039ca860e19e1f3ad0b0eebe5bec7f936a9f1d0dfdea8391233657ce70",
+        "hash": "a4c7fc88882a966b8e60000439d8db9cf357bc0a607cd38c13601769864073d5"
+    },
+    {
+        "index": 2,
+        "marca_tiempo": "2025-03-31 18:48:23.212152",
+        "cuerpo": {
+            "document": "Contrato_123",
+            "status": "firmado"
+        },
+        "hash_anterior": "a4c7fc88882a966b8e60000439d8db9cf357bc0a607cd38c13601769864073d5",
+        "hash": "40c62f0f1a7783fca4d717e8706e0c21b0432eb58d70b9cc57024f8c673c3049"
+    },
+    {
+        "index": 3,
+        "marca_tiempo": "2025-03-31 18:48:23.212152",
+        "cuerpo": {
+            "vote": "Candidato_A",
+            "voter_id": "user_42"
+        },
+        "hash_anterior": "40c62f0f1a7783fca4d717e8706e0c21b0432eb58d70b9cc57024f8c673c3049",
+        "hash": "b578f712b95b7940acd95d2c712784713fa235904856ba9790da378f58989093"
+    }
+]
