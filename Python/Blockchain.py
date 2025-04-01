@@ -4,7 +4,7 @@ import os
 from datetime import datetime
 from typing import Dict, List, Any
 
-class Block:
+class Bloque:
     def __init__(self, index: int, marca_tiempo: str, cuerpo: Any, hash_anterior: str):
         self.index = index
         self.marca_tiempo = marca_tiempo
@@ -31,8 +31,8 @@ class Block:
         }
 
     @staticmethod
-    def obtener_bloques_archivo(data: Dict[str, Any]) -> 'Block':
-        return Block(
+    def obtener_bloques_archivo(data: Dict[str, Any]) -> 'Bloque':
+        return Bloque(
             index=data["index"],
             marca_tiempo=data["marca_tiempo"],
             cuerpo=data["cuerpo"],
@@ -42,25 +42,25 @@ class Block:
 class Blockchain:
     def __init__(self, filename: str = "blockchain.json"):
         self.filename = filename
-        self.cadena: List[Block] = []
+        self.cadena: List[Bloque] = []
         self.cargar_cadena()
 
     def cargar_cadena(self):
         if os.path.exists(self.filename):
             with open(self.filename, "r") as f: # se va a verificar que exista o no un bloque en caso que no exista, simplemente se crea desde el primero
                 datos = json.load(f)
-                self.cadena = [Block.obtener_bloques_archivo(b) for b in datos]
+                self.cadena = [Bloque.obtener_bloques_archivo(b) for b in datos]
         else:
             self.crear_bloque_genesis()
 
     def crear_bloque_genesis(self): # Creamos el bloque Genesis
-        bloque_genesis = Block(0, str(datetime.now()), "Bloque Genesis", "0")
+        bloque_genesis = Bloque(0, str(datetime.now()), "Bloque Genesis", "0")
         self.cadena.append(bloque_genesis)
         self.guardar_bloque()
 
     def agregar_bloque(self, cuerpo: Any):
         bloque_anterior = self.cadena[-1]
-        nuevo_bloque = Block(
+        nuevo_bloque = Bloque(
             index=bloque_anterior.index + 1,
             marca_tiempo=str(datetime.now()),
             cuerpo=cuerpo,
