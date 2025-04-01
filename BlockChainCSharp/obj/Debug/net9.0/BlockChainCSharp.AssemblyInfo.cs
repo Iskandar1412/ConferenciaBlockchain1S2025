@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlockChainCSharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0753a910a3f2729de97983aa24a6f12db422bef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a377b22d56c85c38c15bd6e47b3c4e3c7bc5fd6")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlockChainCSharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlockChainCSharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

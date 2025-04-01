@@ -85,9 +85,11 @@ if __name__ == "__main__":
     nueva_cadena = Blockchain()
 
     # Aquí vamos a añadir bloques (transacciones/documentos/etc)
-    nueva_cadena.agregar_bloque({"sender": "Alice", "receiver": "Bob", "amount": 50})
-    nueva_cadena.agregar_bloque({"document": "Contrato_123", "status": "firmado"})
-    nueva_cadena.agregar_bloque({"vote": "Candidato_A", "voter_id": "user_42"})
+    # nueva_cadena.agregar_bloque({"sender": "Alice", "receiver": "Bob", "amount": 50})
+    # nueva_cadena.agregar_bloque({"document": "Contrato_123", "status": "firmado"})
+    # nueva_cadena.agregar_bloque({"vote": "Candidato_A", "voter_id": "user_42"})
+
+    nueva_cadena.agregar_bloque({ "sender": "Jose", "receiver": "Pablo", "ammount": 50 })
 
     # Mostramos la cadena de bloques (blockchain), en este caso la guardamos en un JSON
     print("--- Blockchain guardada en 'blockchain.json' ---")

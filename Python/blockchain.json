@@ -1,102 +1,51 @@
 [
     {
         "index": 0,
-        "marca_tiempo": "2025-03-31 18:48:23.208754",
+        "marca_tiempo": "2025-04-01 11:32:27.713119",
         "cuerpo": "Bloque Genesis",
         "hash_anterior": "0",
-        "hash": "e15f9a039ca860e19e1f3ad0b0eebe5bec7f936a9f1d0dfdea8391233657ce70"
+        "hash": "f68306e4d74faee4f72bcc7fd4e69e35d49175d0ea2149b09b83a2a41500a969"
     },
     {
         "index": 1,
-        "marca_tiempo": "2025-03-31 18:48:23.210729",
+        "marca_tiempo": "2025-04-01 11:32:27.713413",
         "cuerpo": {
             "sender": "Alice",
             "receiver": "Bob",
             "amount": 50
         },
-        "hash_anterior": "e15f9a039ca860e19e1f3ad0b0eebe5bec7f936a9f1d0dfdea8391233657ce70",
-        "hash": "a4c7fc88882a966b8e60000439d8db9cf357bc0a607cd38c13601769864073d5"
+        "hash_anterior": "f68306e4d74faee4f72bcc7fd4e69e35d49175d0ea2149b09b83a2a41500a969",
+        "hash": "56b6324535ded9be848dae7a9c57a8562fb842255de30bb992f2d66d92e386c3"
     },
     {
         "index": 2,
-        "marca_tiempo": "2025-03-31 18:48:23.212152",
+        "marca_tiempo": "2025-04-01 11:32:27.713702",
         "cuerpo": {
             "document": "Contrato_123",
             "status": "firmado"
         },
-        "hash_anterior": "a4c7fc88882a966b8e60000439d8db9cf357bc0a607cd38c13601769864073d5",
-        "hash": "40c62f0f1a7783fca4d717e8706e0c21b0432eb58d70b9cc57024f8c673c3049"
+        "hash_anterior": "56b6324535ded9be848dae7a9c57a8562fb842255de30bb992f2d66d92e386c3",
+        "hash": "3de8a512b7c29ba5e83e63eaedc9ef9c87d352c366cdf68dc5f7f0292bd68f69"
     },
     {
         "index": 3,
-        "marca_tiempo": "2025-03-31 18:48:23.212152",
+        "marca_tiempo": "2025-04-01 11:32:27.714121",
         "cuerpo": {
             "vote": "Candidato_A",
             "voter_id": "user_42"
         },
-        "hash_anterior": "40c62f0f1a7783fca4d717e8706e0c21b0432eb58d70b9cc57024f8c673c3049",
-        "hash": "b578f712b95b7940acd95d2c712784713fa235904856ba9790da378f58989093"
+        "hash_anterior": "3de8a512b7c29ba5e83e63eaedc9ef9c87d352c366cdf68dc5f7f0292bd68f69",
+        "hash": "49ed2f3ce8316c16771de632b03a24922f3566eea4fc5e9221bfd6ad368d1bf7"
     },
     {
         "index": 4,
-        "marca_tiempo": "2025-03-31 18:55:27.608416",
+        "marca_tiempo": "2025-04-01 11:35:57.779297",
         "cuerpo": {
-            "sender": "Alice",
-            "receiver": "Bob",
-            "amount": 50
+            "sender": "Jose",
+            "receiver": "Pablo",
+            "ammount": 50
         },
-        "hash_anterior": "b578f712b95b7940acd95d2c712784713fa235904856ba9790da378f58989093",
-        "hash": "cdd51030c289834b3ae8504dfc63d699c38fbb74978c8fcfadf3e13f14c10805"
-    },
-    {
-        "index": 5,
-        "marca_tiempo": "2025-03-31 18:55:27.609082",
-        "cuerpo": {
-            "document": "Contrato_123",
-            "status": "firmado"
-        },
-        "hash_anterior": "cdd51030c289834b3ae8504dfc63d699c38fbb74978c8fcfadf3e13f14c10805",
-        "hash": "8ea0d31ccbe964e9fb34c852cf47a37d7e8e0dc4bd5d2e1132251f9817732fa3"
-    },
-    {
-        "index": 6,
-        "marca_tiempo": "2025-03-31 18:55:27.610054",
-        "cuerpo": {
-            "vote": "Candidato_A",
-            "voter_id": "user_42"
-        },
-        "hash_anterior": "8ea0d31ccbe964e9fb34c852cf47a37d7e8e0dc4bd5d2e1132251f9817732fa3",
-        "hash": "65b5594b24d189d7d7a8c45733800a8f8cc4f167ffa1c4729f5ba6b105c5ba8f"
-    },
-    {
-        "index": 7,
-        "marca_tiempo": "2025-03-31 19:03:43.668531",
-        "cuerpo": {
-            "sender": "Alice",
-            "receiver": "Bob",
-            "amount": 50
-        },
-        "hash_anterior": "65b5594b24d189d7d7a8c45733800a8f8cc4f167ffa1c4729f5ba6b105c5ba8f",
-        "hash": "a2c513e2201f117d7e8e16501ff211f2031f12bf1bf4a927de7f2fc3765322ce"
-    },
-    {
-        "index": 8,
-        "marca_tiempo": "2025-03-31 19:03:43.669063",
-        "cuerpo": {
-            "document": "Contrato_123",
-            "status": "firmado"
-        },
-        "hash_anterior": "a2c513e2201f117d7e8e16501ff211f2031f12bf1bf4a927de7f2fc3765322ce",
-        "hash": "6a300681d1f0dc569ab364241d5d83b9e7e5e15be7e0473f8f816c2b4577fa06"
-    },
-    {
-        "index": 9,
-        "marca_tiempo": "2025-03-31 19:03:43.669791",
-        "cuerpo": {
-            "vote": "Candidato_A",
-            "voter_id": "user_42"
-        },
-        "hash_anterior": "6a300681d1f0dc569ab364241d5d83b9e7e5e15be7e0473f8f816c2b4577fa06",
-        "hash": "8d4655756dba5890821732dce0d9344bb65fb631911012c165c79947ac462304"
+        "hash_anterior": "49ed2f3ce8316c16771de632b03a24922f3566eea4fc5e9221bfd6ad368d1bf7",
+        "hash": "404051e8daefdbe877c9b451ad145664125df705658bee2d8a347a9135af4fca"
     }
 ]
